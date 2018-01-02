@@ -1,0 +1,17 @@
+# The following types define the data model of the example service
+# based on which the GraphQL API is generated
+
+type ActivitesIllustration @model {
+  id: ID! @isUnique
+  idImage: String! @migrationValue(value: "42")
+  format: String! @migrationValue(value: "jpg")
+  espace: EspaceBF!
+}
+
+enum EspaceBF {
+  LaBonneFabrique
+  LaBrasserie
+  LespaceCoworking
+  LaSalleDesMachines
+  Autres
+}

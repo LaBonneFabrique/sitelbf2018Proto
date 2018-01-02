@@ -1,0 +1,8 @@
+{
+  "name": "serverGraphCool",
+  "version": "1.0.0",
+  "description": "My Graphcool Service",
+  "dependencies": {
+    "cloudinary": "^1.9.1"
+  }
+}

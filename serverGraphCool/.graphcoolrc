@@ -1,0 +1,3 @@
+targets:
+  protoLBF: shared-eu-west-1/cjbf95vew1lt601561fwdvqv8
+  default: protoLBF
